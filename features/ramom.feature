@@ -29,3 +29,4 @@ When seleciono a opção de “Remover”
 Then removo o professor com CPF “111.222.333-44”
 And continuo na mesma página de “matrícula”
 
+Cenário: ...
