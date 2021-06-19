@@ -28,4 +28,8 @@ And há um professor matriculado com nome, cpf, email contendo os dados “Ramom
 When seleciono a opção de “Remover”
 Then removo o professor com CPF “111.222.333-44”
 And continuo na mesma página de “matrícula”
+
 Then 
+
+Cenário: ...
+
