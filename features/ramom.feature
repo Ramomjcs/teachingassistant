@@ -1,10 +1,10 @@
 Cenário: má inserção de professor no sistema
 Given eu estou na página “Professores matriculados”
-When eu tento adicionar o professor “Ramom”, email “rjcs@cin.ufpe.br” no sistema, github "ramomjcs", sem as informações de cpf
+When eu tento adicionar o professor “Ramom”, email “rjcs@cin.ufpe.br” no sistema, github "ramomjcs", sem as informações de cpf 
 And o professor “Ramom” não está cadastrado no sistema
 Then o sistema me mostra uma mensagem de erro
 And e continua na página de cadastro mostrando o campo que falta
-And o professor não é cadastrado no sistema
+And o professor não é cadastrado no sistema 
 
 Cenário: Atualização de CPF invalido 
 Given eu vou atualizar os dados no aluno por necessidade de alteração dos dados
